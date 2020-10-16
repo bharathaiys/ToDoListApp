@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :MyScript_ATK-SingleLineWidget-android-widget:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b839a35788bd8ae54c71879b6d630b66/MyScript_ATK-SingleLineWidget-android-widget/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b839a35788bd8ae54c71879b6d630b66/MyScript_ATK-SingleLineWidget-android-widget/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

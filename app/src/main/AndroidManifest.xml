@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teamnougat.todolistapp">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".db.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity
+            android:name=".CreateTaskActivity"
+            android:icon="@drawable/ic_action_cross"
+            android:label="Add Task"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ViewTaskActivity"
+            android:icon="@drawable/ic_action_back"
+            android:label="Task"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".WeeklyViewActivity"
+            android:icon="@drawable/ic_action_back"
+            android:label="Weekly View"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EditTaskActivity"
+            android:icon="@drawable/ic_action_back"
+            android:label="Edit Task" />
+		<activity
+            android:name=".HandWritingActivity"
+            android:icon="@drawable/ic_action_back"
+            android:label="Handwriting"
+            android:parentActivityName=".CreateTaskActivity">
+        </activity>
+    </application>
+
+</manifest>

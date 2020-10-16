@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <android.gesture.GestureOverlayView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gOverlay"
+        android:layout_gravity="center_horizontal"
+        android:gestureColor="@color/gesture_color"
+        android:uncertainGestureColor="@color/gesture_color"
+        android:gestureStrokeType="multiple" >
+    </android.gesture.GestureOverlayView>
+
+    <LinearLayout android:id="@+id/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txv_TaskName"
+            android:text="Task Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_task"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:id="@+id/txv_TaskType"
+            android:text="Task Type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_home"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:id="@+id/txv_DueDate"
+            android:text="Due Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_calendar"
+            android:drawablePadding="5dp"
+            android:layout_margin="15dp"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:id="@+id/txv_DueTime"
+            android:text="Due Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_time"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:id="@+id/txv_Location"
+            android:text="Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_location_on"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

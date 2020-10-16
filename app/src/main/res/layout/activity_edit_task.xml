@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edit_task"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02195A"
+    tools:context="com.teamnougat.todolistapp.EditTaskActivity">
+
+    <android.gesture.GestureOverlayView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gOverlay"
+        android:layout_gravity="center_horizontal"
+        android:gestureColor="@color/gesture_color"
+        android:uncertainGestureColor="@color/gesture_color"
+        android:gestureStrokeType="multiple" >
+    </android.gesture.GestureOverlayView>
+
+    <LinearLayout android:id="@+id/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_taskName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Task Name"
+            android:textColorHint="#FFFFFF"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/taskname"/>
+
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:text=" "
+            android:background="#d3d3d3" />
+
+        <Spinner
+            android:id="@+id/edit_taskType"
+            android:layout_width="379dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:background="@drawable/taskname"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:text=" "
+            android:background="#d3d3d3"/>
+
+        <TextView
+            android:id="@+id/edit_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="15dp"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#D8D8D8"
+            android:textAlignment="center"
+            android:background="@drawable/location" />
+
+        <TextView
+            android:id="@+id/line3"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:text=" "
+            android:background="#d3d3d3"/>
+
+        <TextView
+            android:id="@+id/edit_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="15dp"
+            android:textColorHint="#FFFFFF"
+            android:textAlignment="center"
+            android:textColor="#D8D8D8"
+            android:background="@drawable/location"/>
+
+        <TextView
+            android:id="@+id/line4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:text=" "
+            android:background="#d3d3d3"/>
+
+        <EditText
+            android:id="@+id/edit_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Add Location"
+            android:textSize="15dp"
+            android:paddingBottom="3dp"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+
+            android:background="@drawable/location"/>
+
+        <TextView
+            android:id="@+id/line5"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:text=" "
+            android:background="#d3d3d3"/>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="120dp"
+            android:layout_height="265dp"
+            android:layout_gravity="right"
+            android:src="@drawable/photo" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :MyScript_ATK-Text-android-component:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9dd89ef4a9eec264a0788edaf567fcc7/MyScript_ATK-Text-android-component/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9dd89ef4a9eec264a0788edaf567fcc7/MyScript_ATK-Text-android-component/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

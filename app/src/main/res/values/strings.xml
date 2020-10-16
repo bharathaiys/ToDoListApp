@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">POSTit</string>
+
+    <string-array name="task_types">
+        <item>Personal</item>
+        <item>Work</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="sun">SUN</string>
+
+    <string name="time12am">12 am</string>
+    <string name="time1am">01 am</string>
+    <string name="time2am">02 am</string>
+    <string name="time3am">03 am</string>
+    <string name="time4am">04 am</string>
+    <string name="time5am">05 am</string>
+    <string name="time6am">06 am</string>
+    <string name="time7am">07 am</string>
+    <string name="time8am">08 am</string>
+    <string name="time9am">09 am</string>
+    <string name="time10am">10 am</string>
+    <string name="time11am">11 am</string>
+    <string name="time12pm">12 pm</string>
+    <string name="time1pm">01 pm</string>
+    <string name="time2pm">02 pm</string>
+    <string name="time3pm">03 pm</string>
+    <string name="time4pm">04 pm</string>
+    <string name="time5pm">05 pm</string>
+    <string name="time6pm">06 pm</string>
+    <string name="time7pm">07 pm</string>
+    <string name="time8pm">08 pm</string>
+    <string name="time9pm">09 pm</string>
+    <string name="time10pm">10 pm</string>
+    <string name="time11pm">11 pm</string>
+
+    <string name="updating">Updating</string>
+    <string name="title_activity_temp">TempActivity</string>
+    <string name="title_activity_edit_task">EditTaskActivity</string>
+</resources>

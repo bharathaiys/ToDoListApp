@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="medium_dark_gray">#808080</color>
+    <color name="medium_gray">#C0C0C0</color>
+    <color name="gesture_color">#C0C0C0</color>
+    <color name="cleargray">#D3D3D3</color>
+    <color name="strong_blue">#21749C</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="color1">#34a853</color>
+    <color name="color2">#4285f4</color>
+    <color name="color3">#ea4335</color>
+    <color name="color4">#f8971d</color>
+    <color name="color5">#1e8cbe</color>
+</resources>
